@@ -7,27 +7,46 @@ read NAME
 func2 () {
     for i in "$1"/*;
         do
-
-        if [ -f "$i" ]; then
-            printf "File: %s\n\n" "${i}"
-#            sips -Z 200 "${i}";
-        else
+        if [ -d "$i" ]; then
+            printf "**Dir: %s\n" "${i}"
             func2 "${i}"
+            sleep 3
         fi
     done
     return 0
 }
+#####################################
 
+gitIn () {
+    a="./${i}"
+    printf "**Dir: %s\n" "${a}"
+    printf "**Dir: %s\n" "${i}"
+    git init
+    git add ${a}
+    git commit -m "First commit"
+    git push -u origin master
+
+    return 0
+}
+#####################################
+
+gitDel () {
+    a="./${i}"
+    git rm -r ${a}
+    git commit -m "Remove duplicated directory"
+    git push -u origin master
+    return 0
+}
 #####################################
 
 for i in *;
     do
-
     if [ -d "$i" ]; then
-        printf "File: %s\n\n" "${i}"
+        printf "\nDir: %s\n\n" "${i}"
 #        func2 "${i}"
+        gitIn "${i}"
+#        gitDel "${i}"
     fi
-
 done
 
 
