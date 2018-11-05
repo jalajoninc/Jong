@@ -74,7 +74,7 @@ done
 #git rm -r common
 #git add include/common
 
-XRC='by Water Library'
+XRC='The Ninth'
 
 mv "${XRC}" bangkok
 #git rm -r common
