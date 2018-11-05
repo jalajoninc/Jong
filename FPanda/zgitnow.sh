@@ -65,12 +65,20 @@ for i in *;
     if [ -d "${i}" ]; then
 #        printf "\nDir: %s\n\n" "${i}"
 #        gitIn "${i}"
-        gitIn "Thai Kitchen"
+#        gitIn "Thai Kitchen"
         break
     fi
 done
 
+#mv common include
+#git rm -r common
+#git add include/common
 
+XRC='by Water Library'
+
+mv "${XRC}" bangkok
+#git rm -r common
+git add bangkok/"${XRC}"
 
 #git init
 #git add .
