@@ -30,6 +30,22 @@ gitIn () {
     git push -u origin master
     return 0
 }
+#git remote add origin ssh://git@example.com:1234/myRepo.git
+#
+#https://github.com/jalajoninc
+#git remote add origin https://github.com/jalajoninc/test.git
+#
+#git remote set-url origin ssh://git@github.com/jalajoninc/test.git
+#git init
+#git add Food2
+#git commit -m "First commit"
+#git push -u origin master
+
+git remote -v
+git init
+git add Menu2
+git remote add origin https://github.com/jalajoninc/test.git
+
 #####################################
 
 gitDel () {
@@ -63,9 +79,10 @@ gitDel () {
 for i in *;
     do
     if [ -d "${i}" ]; then
-#        printf "\nDir: %s\n\n" "${i}"
+        printf "\nDir: %s\n\n" "${i}"
 #        gitIn "${i}"
 #        gitIn "Thai Kitchen"
+        gitDel "${i}"
         break
     fi
 done
@@ -74,11 +91,11 @@ done
 #git rm -r common
 #git add include/common
 
-XRC='The Ninth'
+#XRC='The Ninth'
 
-mv "${XRC}" bangkok
+#mv "${XRC}" bangkok
 #git rm -r common
-git add bangkok/"${XRC}"
+#git add bangkok/"${XRC}"
 
 #git init
 #git add .
