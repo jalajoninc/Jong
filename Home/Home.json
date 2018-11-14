@@ -1,0 +1,117 @@
+{
+  "alpha" : "0.25",
+  "cfg" : {
+    "bg" : "C04000",
+    "biz" : "y",
+    "calendar" : "n",
+    "cart" : "y",
+    "contact" : "y",
+    "gallery" : "y",
+    "home" : "y",
+    "itinerary" : "n",
+    "menu" : "y",
+    "menuc" : "n",
+    "reviews" : "y",
+    "thai" : "y",
+    "zcashonly" : "n",
+    "zstore" : "y"
+  },
+  "dscr" : "Open Thailand to the world.\nเปิด เมืองไทย ให้ โลก เห็น และ รับรู้\n\n\nDining\t\t\t\t\t\tกิน\nTourism\t\t\t\t\t\tเที่ยว\nPharmaceutical\t\t\t\tยา\nTransportation\t\t\tเดินทาง",
+  "icon" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/Thail4/Home/wthai05.png",
+  "icond" : "2017.07.11T10:20:54.EDT",
+  "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/Thail4/Home/thai03.JPEG",
+  "imaged" : "2018.07.24T10:20:56.EDT",
+  "img" : {
+    "~000001:Beach Deluxe01" : {
+      "dscr" : "bird1",
+      "image" : "http://www.100urlaubsziele.de/wp-content/uploads/101urlaube/thailand-schwimmende-maerkteX.jpg",
+      "imaged" : "2017.01.26T13:34:54.GMT",
+      "nm" : "~000001:bird1"
+    },
+    "~000002:Beach Deluxe02" : {
+      "dscr" : "bird2",
+      "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nan004.jpg",
+      "imaged" : "2017.01.26T13:34:54.GMT",
+      "nm" : "~000002:bird2"
+    },
+    "~000003:Beach Deluxe03" : {
+      "dscr" : "bird2",
+      "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nanorg.png",
+      "imaged" : "2017.01.26T13:34:54.GMT",
+      "nm" : "~000005:bird5"
+    },
+    "~000004:Beach Deluxe04" : {
+      "dscr" : "bird2",
+      "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nanroyalst.png",
+      "imaged" : "2017.01.26T13:34:54.GMT",
+      "nm" : "~000008:bird8"
+    }
+  },
+  "imgx" : [ {
+    "dscr" : "bird1",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/Thail4/Home/floatingmarket.jpg",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000001:bird1"
+  }, {
+    "dscr" : "bird2",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nan004.jpg",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000002:bird2"
+  }, {
+    "dscr" : "bird2",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nanorg.png",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000005:bird5"
+  }, {
+    "dscr" : "bird2",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nanroyalst.png",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000008:bird8"
+  } ],
+  "nm" : "",
+  "zadr" : [ {
+    "adr" : "1 Lard Pland",
+    "city" : "Chiang Mai 50300 Thailand",
+    "fbase" : "World/THA/Bangkok/Central/Food/Thai/Thai4/Test1",
+    "lat" : "27.192163",
+    "lng" : "-80.243001",
+    "nm" : "Thai 4.0.2",
+    "zemail" : "email@host.com",
+    "zmanager" : "John Doe",
+    "zphone" : "012-345-6789",
+    "zwebsite" : "www.host.com"
+  }, {
+    "adr" : "1 Din Dang",
+    "city" : "Bangkok Thailand 10260",
+    "fbase" : "World/THA/Bangkok/Central/Food/Thai/Thai4/Test2",
+    "lat" : "18.804109",
+    "lng" : "98.967410",
+    "nm" : "Thailand 4.0",
+    "zemail" : "email@host.com",
+    "zmanager" : "John Doe",
+    "zphone" : "012-345-6789",
+    "zwebsite" : "www.host.com"
+  } ],
+  "zgithub" : "*https://raw.githubusercontent.com/jalajoninc/Jong/master",
+  "zimg" : [ {
+    "dscr" : "bird1",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/Thail4/Home/floatingmarket.jpg",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000001:bird1"
+  }, {
+    "dscr" : "bird2",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nan004.jpg",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000002:bird2"
+  }, {
+    "dscr" : "bird2",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nanorg.png",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000005:bird5"
+  }, {
+    "dscr" : "bird2",
+    "image" : "https://raw.githubusercontent.com/jalajoninc/mydata/master/RoyalNan/Home/nanroyalst.png",
+    "imaged" : "2017.01.26T13:34:54.GMT",
+    "nm" : "~000008:bird8"
+  } ]
+}
