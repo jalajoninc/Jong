@@ -10,7 +10,7 @@ func2 () {
 
         if [ -f "$i" ]; then
             printf "File: %s\n\n" "${i}"
-#            sips -Z 200 "${i}";
+            sips -Z 400 "${i}";
         else
             func2 "${i}"
         fi
